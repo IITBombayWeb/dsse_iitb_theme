@@ -1,0 +1,33 @@
+uuid: 56bec18a-8dce-43d8-93c0-b04310ff06b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slides.field_media_items
+    - field.field.paragraph.slides.field_title
+    - paragraphs.paragraphs_type.slides
+  module:
+    - media_library
+id: paragraph.slides.default
+targetEntityType: paragraph
+bundle: slides
+mode: default
+content:
+  field_media_items:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

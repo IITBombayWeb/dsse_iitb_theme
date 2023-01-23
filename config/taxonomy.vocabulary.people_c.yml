@@ -1,0 +1,8 @@
+uuid: bc668646-5774-45d9-b502-50cdb49e4c1e
+langcode: en
+status: true
+dependencies: {  }
+name: 'People Category'
+vid: people_c
+description: 'Categories for People contents.'
+weight: 0

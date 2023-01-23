@@ -1,0 +1,12 @@
+uuid: dc588d30-90a5-47ec-8cd9-87544cb382ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.banner
+id: block_content.banner.default
+targetEntityType: block_content
+bundle: banner
+mode: default
+content: {  }
+hidden: {  }

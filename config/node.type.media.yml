@@ -1,0 +1,18 @@
+uuid: 7df12597-d909-4d0f-9a27-a19184940c08
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Media
+type: media
+description: 'Add files, images or documents to show as contents.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

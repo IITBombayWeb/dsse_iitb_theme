@@ -1,0 +1,8 @@
+uuid: 814dbcc7-f4c2-47b1-b846-720e109375d1
+langcode: en
+status: true
+dependencies: {  }
+id: text_with_image
+label: 'Text with Image'
+revision: 0
+description: 'Use this block to add image and texts together.'

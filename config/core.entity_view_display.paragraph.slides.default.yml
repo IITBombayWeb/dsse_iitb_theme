@@ -1,0 +1,36 @@
+uuid: 0aa81083-937c-42f3-99fd-0020481e4de8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slides.field_media_items
+    - field.field.paragraph.slides.field_title
+    - image.style.slick_media
+    - paragraphs.paragraphs_type.slides
+  module:
+    - media
+id: paragraph.slides.default
+targetEntityType: paragraph
+bundle: slides
+mode: default
+content:
+  field_media_items:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: slick_media
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

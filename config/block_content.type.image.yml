@@ -1,0 +1,8 @@
+uuid: 2081b736-c9b3-4d4c-9089-fc9f734e8e85
+langcode: en
+status: true
+dependencies: {  }
+id: image
+label: Image
+revision: 0
+description: 'Add image as block'

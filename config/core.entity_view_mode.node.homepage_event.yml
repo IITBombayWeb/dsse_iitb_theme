@@ -1,0 +1,10 @@
+uuid: 449c7f72-9194-473c-b682-cd5c4e57adb9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.homepage_event
+label: 'Homepage Event'
+targetEntityType: node
+cache: true

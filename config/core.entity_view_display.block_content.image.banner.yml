@@ -1,0 +1,29 @@
+uuid: 0f087b4e-ac77-4c71-880e-d0dd88277fc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.image
+    - core.entity_view_mode.block_content.banner
+    - field.field.block_content.image.field_image
+  module:
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: block_content.image.banner
+targetEntityType: block_content
+bundle: image
+mode: banner
+content:
+  field_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: banner
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
