@@ -1,0 +1,172 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+
+/* #navbar-main {
+    background-image: "inear-gradient(180deg, hsla(0, 0%, 100%, 0.56), hsla(0, 0%, 100%, 0.56)), url(/themes/custom/dsse_iitb_theme/images/UpdatedLight-Short-BW-Warli.jpg) !important";
+} */
+
+body {
+    background: white;
+    font-family: Rubik, sans-serif;
+}
+
+.site-name-slogan a {
+    text-decoration: none;
+}
+
+.card-group img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.card-group .field--type-image {
+    margin: 0
+}
+
+#navbar-main {
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.56), hsla(0, 0%, 100%, 0.56)), url(/themes/custom/dsse_iitb_theme/images/UpdatedLight-Short-BW-Warli.jpg);
+}
+.navbar-brand {
+    width: 22vw;
+    height: 68px;
+    max-width: 300px;
+    background-position: 0% 10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.site-footer {
+    background-image: linear-gradient(180deg,hsla(0,0%,100%,0.56),hsla(0,0%,100%,0.56)),url(/themes/custom/dsse_iitb_theme/images/UpdatedLight-Short-BW-Warli.jpg) !important;
+    box-shadow: inset 0px 0px 9px 0px #86868696;
+    position: relative;
+    z-index: 5;
+    padding: 40px 3% 0px;
+    height: 500px;
+    margin-top: 12rem;    
+}
+.site-footer .content {
+    color: #000;
+}
+.slick-list .slide .field--name-field-media-items img{
+    width: 100%;
+    border-radius: 1em;
+}
+/* .slick-arrow {
+    background-image: url(/themes/custom/dsse_iitb_theme/images/UpdatedLight-Short-BW-Warli.jpg) !important;
+} */
+.path-frontpage .block-inline-blockimage .field--name-field-image img {
+    max-width: 40px;
+    margin-bottom: 4px;
+    max-height: 40px;
+}
+.container {
+    width: 85%;
+    max-width: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav-item {
+    margin-right: 2px;
+    margin-left: 2px;
+    /* padding: 16px 1vw 10px; */
+    font-family: Mohave, Verdana, sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+}
+p {
+    font-family: Rubik, sans-serif;
+}
+
+.region-footer-first .block-block-content .field--name-field-image img{
+    width: 240px;
+    object-fit: contain;
+    margin-top: 0px;
+}
+.region-footer-second {
+    width: 80% !important;
+    text-align: center;
+}
+.block-inline-blocktext-with-image {
+    margin-bottom: 6em;
+}
+.block-inline-blocktext-with-image img {
+    border-radius: 12px;
+}
+
+.block-inline-blocktext-with-image .field--name-field-links {
+    display: flex;
+}
+.block-inline-blocktext-with-image .field--name-field-links .field__item a {
+    margin-right: 1em;
+    padding-right: 18px;
+    background-image: url(/themes/custom/dsse_iitb_theme/images/Black-Arrow.svg) !important;
+    background-position: 98% 50%;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    font-family: Rubik, sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.field.field--name-field-title.field--type-string.field--label-hidden.field__item {
+    max-width: 80%;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: 12em;
+    padding: 8px 18px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.56);
+    color: #fff;
+    font-size: 28px;
+    line-height: 121%;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 18em;
+}
+.text-is-left {
+    font-size: 20px;
+    line-height: 145%;
+    letter-spacing: -0.2px;
+    padding-right: 4.5em;
+ /*    animation-name: left-to-right;
+    animation-duration: 1s; */
+}
+
+/* @keyframes left-to-right {
+    from {padding-right: 6em;}
+    to {padding-right: 4.5em;}
+} */
+.text-is-right {
+    font-size: 20px;
+    line-height: 145%;
+    letter-spacing: -0.2px;
+    padding-left: 0px;
+  /*   animation-name: right-to-left;
+    animation-duration: 1s; */
+    
+}
+/* @keyframes right-to-left {
+    from {padding-left: 105px;}
+    to {padding-left: 0px;}
+} */
+.block-field-blockblock-contenttext-with-imagefield-links {
+    border-top: 1px solid #cfcfcf;
+    padding-top: 8px;
+}
+.block-page-title-block h1 {
+    text-align: center;
+    padding: 1em;
+}
+.dsse-banner img.image-style-wide {
+    width: 1080px;
+    border-radius: 8px;
+}

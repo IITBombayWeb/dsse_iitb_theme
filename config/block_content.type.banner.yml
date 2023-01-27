@@ -1,8 +1,0 @@
-uuid: d4fe9c3d-3383-4dd4-89c4-3bb481188949
-langcode: en
-status: true
-dependencies: {  }
-id: banner
-label: Banner
-revision: 0
-description: 'Add banner block on any basic page.'

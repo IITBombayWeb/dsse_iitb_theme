@@ -1,8 +1,0 @@
-uuid: f55e966e-42fc-4ffc-bf0b-95ac9dc9ce38
-langcode: en
-status: true
-dependencies: {  }
-id: slideshow
-label: Slideshow
-revision: 0
-description: 'Create slideshow to show slides of images.'
