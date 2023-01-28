@@ -4,10 +4,6 @@
  */
 
 
-/* #navbar-main {
-    background-image: "inear-gradient(180deg, hsla(0, 0%, 100%, 0.56), hsla(0, 0%, 100%, 0.56)), url(/themes/custom/dsse_iitb_theme/images/UpdatedLight-Short-BW-Warli.jpg) !important";
-} */
-
 body {
     background: white;
     font-family: Rubik, sans-serif;
@@ -28,7 +24,7 @@ body {
 }
 
 #navbar-main {
-    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.56), hsla(0, 0%, 100%, 0.56)), url(/themes/custom/dsse_iitb_theme/images/UpdatedLight-Short-BW-Warli.jpg);
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.56), hsla(0, 0%, 100%, 0.56)), url(/dssedev4/themes/contrib/dsse_iitb_theme/images/UpdatedLight-Short-BW-Warli.jpg);
 }
 .navbar-brand {
     width: 22vw;
@@ -39,7 +35,7 @@ body {
     background-repeat: no-repeat;
 }
 .site-footer {
-    background-image: linear-gradient(180deg,hsla(0,0%,100%,0.56),hsla(0,0%,100%,0.56)),url(/themes/custom/dsse_iitb_theme/images/UpdatedLight-Short-BW-Warli.jpg) !important;
+    background-image: linear-gradient(180deg,hsla(0,0%,100%,0.56),hsla(0,0%,100%,0.56)),url(/dssedev4/themes/contrib/dsse_iitb_theme/images/UpdatedLight-Short-BW-Warli.jpg) !important;
     box-shadow: inset 0px 0px 9px 0px #86868696;
     position: relative;
     z-index: 5;
@@ -54,20 +50,18 @@ body {
     width: 100%;
     border-radius: 1em;
 }
-/* .slick-arrow {
-    background-image: url(/themes/custom/dsse_iitb_theme/images/UpdatedLight-Short-BW-Warli.jpg) !important;
-} */
+
 .path-frontpage .block-inline-blockimage .field--name-field-image img {
     max-width: 40px;
     margin-bottom: 4px;
     max-height: 40px;
 }
-.container {
+/* .container {
     width: 85%;
     max-width: 1080px;
     margin-right: auto;
     margin-left: auto;
-}
+} */
 .nav-item {
     margin-right: 2px;
     margin-left: 2px;
@@ -103,7 +97,7 @@ p {
 .block-inline-blocktext-with-image .field--name-field-links .field__item a {
     margin-right: 1em;
     padding-right: 18px;
-    background-image: url(/themes/custom/dsse_iitb_theme/images/Black-Arrow.svg) !important;
+    background-image: url(/dssedev4/themes/contrib/dsse_iitb_theme/images/Black-Arrow.svg) !important;
     background-position: 98% 50%;
     background-size: 12px 12px;
     background-repeat: no-repeat;
