@@ -51,10 +51,10 @@ body {
     border-radius: 1em;
 }
 
-.path-frontpage .block-inline-blockimage .field--name-field-image img {
-    max-width: 40px;
-    margin-bottom: 4px;
-    max-height: 40px;
+.path-frontpage .welcome-image img {
+        max-width: 40px;
+        margin-bottom: 4px;
+        max-height: 40px;
 }
 /* .container {
     width: 85%;
@@ -141,10 +141,7 @@ p {
     font-size: 20px;
     line-height: 145%;
     letter-spacing: -0.2px;
-    padding-left: 0px;
-  /*   animation-name: right-to-left;
-    animation-duration: 1s; */
-    
+    padding-left: 3em;
 }
 /* @keyframes right-to-left {
     from {padding-left: 105px;}
@@ -161,4 +158,19 @@ p {
 .dsse-banner img.image-style-wide {
     width: 1080px;
     border-radius: 8px;
+}
+.image-is-left {
+    max-width: 30%;
+}
+.image-is-left img {
+    width: 100%;
+    height: auto;
+}
+.image-is-right {
+    max-width: 30%;
+}
+
+.image-is-right img {
+    width: 100%;
+    height: auto;
 }
