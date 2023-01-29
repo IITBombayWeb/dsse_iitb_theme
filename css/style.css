@@ -124,29 +124,7 @@ p {
     width: 100%;
     text-align: center;
 }
-.text-is-left {
-    font-size: 20px;
-    line-height: 145%;
-    letter-spacing: -0.2px;
-    padding-right: 4.5em;
- /*    animation-name: left-to-right;
-    animation-duration: 1s; */
-}
 
-/* @keyframes left-to-right {
-    from {padding-right: 6em;}
-    to {padding-right: 4.5em;}
-} */
-.text-is-right {
-    font-size: 20px;
-    line-height: 145%;
-    letter-spacing: -0.2px;
-    padding-left: 3em;
-}
-/* @keyframes right-to-left {
-    from {padding-left: 105px;}
-    to {padding-left: 0px;}
-} */
 .block-field-blockblock-contenttext-with-imagefield-links {
     border-top: 1px solid #cfcfcf;
     padding-top: 8px;
@@ -159,18 +137,32 @@ p {
     width: 1080px;
     border-radius: 8px;
 }
-.image-is-left {
-    max-width: 30%;
-}
-.image-is-left img {
-    width: 100%;
-    height: auto;
-}
-.image-is-right {
-    max-width: 30%;
-}
 
-.image-is-right img {
-    width: 100%;
-    height: auto;
+@media (min-width: 992px){
+    .image-is-right {
+        max-width: 30%;
+    }
+    .image-is-left {
+        max-width: 30%;
+    }
+    .image-is-left img {
+        width: 100%;
+        height: auto;
+    }
+    .image-is-right img {
+        width: 100%;
+        height: auto;
+    }
+    .text-is-right {
+        font-size: 20px;
+        line-height: 145%;
+        letter-spacing: -0.2px;
+        padding-left: 3em;
+    }
+    .text-is-left {
+        font-size: 20px;
+        line-height: 145%;
+        letter-spacing: -0.2px;
+        padding-right: 4.5em;
+    }
 }
