@@ -162,8 +162,22 @@ p {
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 430px){
     .field.field--name-field-title.field--type-string.field--label-hidden.field__item {
         font-size: 15px !important;
     }
+}
+.path-frontpage .block-views-blockevents-block-1 header {
+    display: none;
+}
+.node--view-mode-homepage-event .node__content.clearfix {
+    background-color: white;
+    margin-bottom: 4%;
+    width: 80%;
+    border-radius: 1em;
+}
+.node--view-mode-homepage-event .node__content.clearfix img {
+    width: 80%;
+    height: auto;
+
 }
