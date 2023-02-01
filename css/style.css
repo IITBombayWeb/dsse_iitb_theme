@@ -133,21 +133,16 @@ p {
     border-radius: 8px;
 }
 
+.image-is-left img{
+    max-width: 100%;
+    height: auto;
+}
+
+.image-is-right img{
+    max-width: 100%;
+    height: auto;
+}
 @media (min-width: 992px){
-    .image-is-right {
-        max-width: 30%;
-    }
-    .image-is-left {
-        max-width: 30%;
-    }
-    .image-is-left img {
-        width: 100%;
-        height: auto;
-    }
-    .image-is-right img {
-        width: 100%;
-        height: auto;
-    }
     .text-is-right {
         font-size: 20px;
         line-height: 145%;
