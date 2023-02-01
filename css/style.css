@@ -140,17 +140,25 @@ p {
 /* custome style */
 
 .welcome-content{
-    background-color: rgb(194, 171, 41);
+    background-color: #fff7c9;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    border-radius:10px;
     
 }
 .welcome-content .item{
-    font-size: 2rem;       
+    font-size: 2.5rem;      
+    display: flex;
+    align-items: center; 
+    border-right: 1px solid #000;
     
 }
 .welcome-content .item span{
     font-size: 1rem;
+    margin-left: 10px;
+}
+.welcome-content .item:last-child{
+border-right: 0px;
 }
 
 
