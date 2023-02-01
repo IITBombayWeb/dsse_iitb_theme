@@ -142,9 +142,8 @@ p {
 .welcome-content{
     background-color: #fff7c9;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     border-radius:10px;
-    
 }
 .welcome-content .item{
     font-size: 2.5rem;      
