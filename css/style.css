@@ -137,6 +137,24 @@ p {
     height: auto;
 }
 
+/* custome style */
+
+.welcome-content{
+    background-color: rgb(194, 171, 41);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.welcome-content .item{
+    font-size: 2rem;       
+    
+}
+.welcome-content .item span{
+    font-size: 1rem;
+}
+
+
+
 @media (min-width: 992px){
     .text-is-right {
         font-size: 20px;
