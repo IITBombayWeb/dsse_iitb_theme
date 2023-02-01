@@ -137,8 +137,6 @@ p {
     height: auto;
 }
 
-
-
 @media (min-width: 992px){
     .text-is-right {
         font-size: 20px;
@@ -171,8 +169,7 @@ p {
 .node--view-mode-homepage-event .node__content.clearfix img {
     width: 80%;
     height: auto;
-
 }
-
-
-
+.views-row header .node__title {
+    display : none;
+}
