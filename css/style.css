@@ -51,12 +51,7 @@ body {
     border-radius: 1em;
 }
 
-/* .container {
-    width: 85%;
-    max-width: 1080px;
-    margin-right: auto;
-    margin-left: auto;
-} */
+
 .nav-item {
     margin-right: 2px;
     margin-left: 2px;
@@ -132,6 +127,8 @@ p {
     width: 1080px;
     border-radius: 8px;
 }
+
+
 
 @media (min-width: 992px){
     .image-is-right {
