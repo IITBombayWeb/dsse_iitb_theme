@@ -137,6 +137,34 @@ p {
     height: auto;
 }
 
+/* custome style */
+
+.welcome-content{
+    background-color: #fff7c9;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius:10px;
+    padding: 15px
+
+}
+.welcome-content .item{
+    font-size: 2.5rem;      
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border-right: 1px solid #000;
+    
+}
+.welcome-content .item span{
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.welcome-content .item:last-child{
+border-right: 0px;
+}
+
+
+
 @media (min-width: 992px){
     .text-is-right {
         font-size: 20px;
