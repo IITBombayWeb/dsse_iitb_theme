@@ -166,6 +166,12 @@ border-right: 0px;
 .people-name, .people-link{
     width: 50%;
     float: left;
+    border-bottom: 1px solid #ccc;
+}
+.people-link{
+    text-align: right;
+    margin-top: 6px;
+
 }
 .people-bio{
     width: 100%;
