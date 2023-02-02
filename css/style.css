@@ -233,17 +233,19 @@ p {
 }
 
 .region-footer-first {
-    width: 100%;
+    width: 100% !important;
     align-items: center;
 }
 
-.region-footer-first .field--type-text-with-summary {
+.region-footer-first .contact-address {
     background-color: #f3d98b;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
 }
-
+.region-footer-second{
+    width: 100% !important;
+}
 .region-footer-second .footer-block-title{
     font-weight: 700;
     font-size: 1.2rem;
