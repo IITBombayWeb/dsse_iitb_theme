@@ -26,6 +26,7 @@ body {
 #navbar-main {
     background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.56), hsla(0, 0%, 100%, 0.56)), url(/dssedev4/themes/contrib/dsse_iitb_theme/images/UpdatedLight-Short-BW-Warli.jpg);
 }
+
 .navbar-brand {
     width: 22vw;
     height: 68px;
@@ -34,19 +35,22 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .site-footer {
-    background-image: linear-gradient(180deg,hsla(0,0%,100%,0.56),hsla(0,0%,100%,0.56)),url(/dssedev4/themes/contrib/dsse_iitb_theme/images/UpdatedLight-Short-BW-Warli.jpg) !important;
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.56), hsla(0, 0%, 100%, 0.56)), url(/dssedev4/themes/contrib/dsse_iitb_theme/images/UpdatedLight-Short-BW-Warli.jpg) !important;
     box-shadow: inset 0px 0px 9px 0px #86868696;
     position: relative;
     z-index: 5;
     padding: 40px 3% 0px;
     height: 500px;
-    margin-top: 12rem;    
+    margin-top: 12rem;
 }
+
 .site-footer .content {
     color: #000;
 }
-.slick-list .slide .field--name-field-slide-image img{
+
+.slick-list .slide .field--name-field-slide-image img {
     width: 100%;
     border-radius: 1em;
 }
@@ -61,22 +65,26 @@ body {
     font-size: 20px;
     font-weight: 300;
 }
+
 p {
     font-family: Rubik, sans-serif;
 }
 
-.region-footer-first .block-block-content .field--name-field-image img{
+.region-footer-first .block-block-content .field--name-field-image img {
     width: 240px;
     object-fit: contain;
     margin-top: 0px;
 }
+
 .region-footer-second {
     width: 80% !important;
     text-align: center;
 }
+
 .block-inline-blocktext-with-image {
     margin-bottom: 6em;
 }
+
 .block-inline-blocktext-with-image img {
     border-radius: 12px;
 }
@@ -84,6 +92,7 @@ p {
 .block-inline-blocktext-with-image .field--name-field-links {
     display: flex;
 }
+
 .block-inline-blocktext-with-image .field--name-field-links .field__item a {
     margin-right: 1em;
     padding-right: 18px;
@@ -119,68 +128,76 @@ p {
     border-top: 1px solid #cfcfcf;
     padding-top: 8px;
 }
+
 .block-page-title-block h1 {
     text-align: center;
     padding: 1em;
 }
+
 .dsse-banner img.image-style-wide {
     width: 1080px;
     border-radius: 8px;
 }
 
-.image-is-left img{
+.image-is-left img {
     max-width: 100%;
     height: auto;
 }
-.image-is-right img{
+
+.image-is-right img {
     max-width: 100%;
     height: auto;
 }
 
 /* custome style */
 
-.welcome-content{
+.welcome-content {
     background-color: #fff7c9;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border-radius:10px;
+    border-radius: 10px;
     padding: 15px
-
 }
-.welcome-content .item{
-    font-size: 2.5rem;      
+
+.welcome-content .item {
+    font-size: 2.5rem;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     border-right: 1px solid #000;
-    
+
 }
-.welcome-content .item span{
+
+.welcome-content .item span {
     font-size: 1rem;
     margin-left: 10px;
 }
-.welcome-content .item:last-child{
-border-right: 0px;
+
+.welcome-content .item:last-child {
+    border-right: 0px;
 }
 
-.people-name, .people-link{
+.people-name,
+.people-link {
     width: 50%;
     float: left;
     border-bottom: 2px solid #ffc107;
     padding-bottom: 10px;
 }
-.people-link{
+
+.people-link {
     text-align: right;
-    margin-top: -5px;   
+    margin-top: -3px;
 
 }
-.people-name{
-font-weight: 600;
+
+.people-name {
+    font-weight: 600;
     font-size: 1.1rem;
 }
 
 
-.people-link a{
+.people-link a {
     margin-right: 1em;
     padding-right: 18px;
     background-image: url(/dssedev4/themes/contrib/dsse_iitb_theme/images/Black-Arrow.svg) !important;
@@ -189,41 +206,68 @@ font-weight: 600;
     background-repeat: no-repeat;
     -webkit-transition: all 200ms ease;
     transition: all 200ms ease;
-    font-family: Rubik,sans-serif;
+    font-family: Rubik, sans-serif;
     color: #000;
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
 }
-.read-more-default a{
+
+
+.read-more-default a {
     border: 1px so;
 }
-.people-bio{
+
+.people-bio {
     width: 100%;
     float: left;
 }
 
-.site-footer .navbar-nav{
+.site-footer .navbar-nav {
     flex-direction: row;
     gap: 40px;
 }
-.node__content{
+
+.node__content {
     font-size: var(--bs-body-font-size);
 }
 
-.region-footer-first{
-
+.region-footer-first {
+    width: 100%;
+    align-items: center;
 }
 
+.region-footer-first .field--type-text-with-summary {
+    background-color: #f3d98b;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
 
-
-@media (min-width: 992px){
+.region-footer-second .footer-block-title{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.region-footer-second ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.region-footer-second ul li{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.region-footer-second ul li a{
+    color: #000;
+}
+@media (min-width: 992px) {
     .text-is-right {
         font-size: 20px;
         line-height: 145%;
         letter-spacing: -0.2px;
-        padding-left: 3em;
+        padding-left: 3em; 
     }
+
     .text-is-left {
         font-size: 20px;
         line-height: 145%;
@@ -232,34 +276,38 @@ font-weight: 600;
     }
 }
 
-@media (max-width: 430px){
+@media (max-width: 430px) {
     .field.field--name-field-title.field--type-string.field--label-hidden.field__item {
         font-size: 15px !important;
     }
 }
+
 .path-frontpage .block-views-blockevents-block-1 header {
     display: none;
 }
+
 .node--view-mode-homepage-event .node__content.clearfix {
     background-color: white;
     margin-bottom: 4%;
     width: 80%;
     border-radius: 1em;
 }
+
 .node--view-mode-homepage-event .node__content.clearfix img {
     width: 80%;
     height: auto;
 }
 
 .views-row header .node__title {
-    display : none;
+    display: none;
 }
+
 .read-more-default a:after {
     content: "Know More";
     font-size: 16px;
     float: right;
     margin-top: 12px;
-   
+
     padding: 8px 20px;
     border-radius: 5px;
     color: rgb(255, 255, 255);
@@ -267,7 +315,7 @@ font-weight: 600;
     background-color: rgb(0, 97, 161);
 }
 
-.field--name-field-photo img{
+.field--name-field-photo img {
     border-radius: 10px;
 }
 
