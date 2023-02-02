@@ -262,6 +262,8 @@ p {
     font-size: 0.9rem;
     font-weight: 300;
     text-align: left;
+    display: block;
+    width: 100%;
 }
 .site-footer{
     height: auto;
