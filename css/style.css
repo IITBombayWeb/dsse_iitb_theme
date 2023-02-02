@@ -163,6 +163,16 @@ p {
 border-right: 0px;
 }
 
+.people-name, .people-link{
+    width: 50%;
+    float: left;
+}
+.people-bio{
+    width: 100%;
+    float: left;
+}
+
+
 
 
 @media (min-width: 992px){
