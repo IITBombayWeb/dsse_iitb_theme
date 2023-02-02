@@ -178,6 +178,10 @@ border-right: 0px;
     float: left;
 }
 
+.site-footer .navbar-nav{
+    flex-direction: row;
+    gap: 40px;
+}
 
 
 
