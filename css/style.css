@@ -253,16 +253,16 @@ border-right: 0px;
     float: right;
     margin-top: 12px;
    
-    padding: 2px 15px;
+    padding: 8px 20px;
     border-radius: 5px;
     color: rgb(255, 255, 255);
     transition: all 0.5s;
     background-color: rgb(0, 97, 161);
 }
-.read-more-default a:after:hover{
-    background-color: rgb(8, 75, 121);
-}
 
+.field--name-field-photo img{
+    border-radius: 10px;
+}
 
 
 .read-more-default a {
