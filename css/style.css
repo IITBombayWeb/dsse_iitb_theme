@@ -182,6 +182,9 @@ border-right: 0px;
     flex-direction: row;
     gap: 40px;
 }
+.node__content{
+    font-size: var(--bs-body-font-size);
+}
 
 
 
@@ -218,6 +221,7 @@ border-right: 0px;
     width: 80%;
     height: auto;
 }
+
 .views-row header .node__title {
     display : none;
 }
