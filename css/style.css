@@ -235,6 +235,7 @@ p {
 .region-footer-first {
     width: 100% !important;
     align-items: center;
+    border-bottom: 1px solid #00000036;
 }
 
 .region-footer-first .contact-address {
@@ -245,22 +246,32 @@ p {
 }
 .region-footer-second{
     width: 100% !important;
+    border-bottom: 1px solid #00000036;
 }
 .region-footer-second .footer-block-title{
     font-weight: 700;
     font-size: 1.2rem;
+    text-align: left;
 }
 .region-footer-second ul{
-    padding: 0px;
+    padding: 0px !important;
     margin: 0px;
     list-style-type: none;
 }
 .region-footer-second ul li{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 300;
+    text-align: left;
 }
-.region-footer-second ul li a{
+.site-footer{
+    height: auto;
+}
+
+.site-footer__top .content li a{
     color: #000;
+}
+.site-footer__top .content li a:hover{
+    color: rgb(0, 9, 128);
 }
 @media (min-width: 992px) {
     .text-is-right {
