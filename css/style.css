@@ -211,3 +211,13 @@ border-right: 0px;
 .views-row header .node__title {
     display : none;
 }
+.read-more-default a:after {
+    content: "Know More";
+    font-size: 16px;
+    float: right;
+    margin-top: 12px;
+}
+
+.read-more-default a {
+    font-size: 0;
+}
