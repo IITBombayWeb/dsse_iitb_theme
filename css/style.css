@@ -369,6 +369,7 @@ p {
 }
 .image-style-acad-fac-max-325x325{
     max-width: 100%;
+    height: auto;
 }
 .event-date-block{
     font-style: italic;
