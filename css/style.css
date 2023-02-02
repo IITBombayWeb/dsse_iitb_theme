@@ -170,8 +170,26 @@ border-right: 0px;
 }
 .people-link{
     text-align: right;
-    margin-top: 10px
+    margin-top: 10px   
 
+}
+.people-link a{
+    margin-right: 1em;
+    padding-right: 18px;
+    background-image: url(/dssedev4/themes/contrib/dsse_iitb_theme/images/Black-Arrow.svg) !important;
+    background-position: 98% 50%;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    font-family: Rubik,sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.read-more-default a{
+    border: 1px so;
 }
 .people-bio{
     width: 100%;
@@ -184,6 +202,10 @@ border-right: 0px;
 }
 .node__content{
     font-size: var(--bs-body-font-size);
+}
+
+.region-footer-first{
+
 }
 
 
@@ -230,6 +252,10 @@ border-right: 0px;
     font-size: 16px;
     float: right;
     margin-top: 12px;
+    border: 1px solid #000;
+    padding: 2px 15px;
+    border-radius: 5px;
+    color: #000;
 }
 
 .read-more-default a {
