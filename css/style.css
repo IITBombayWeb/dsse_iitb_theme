@@ -170,7 +170,7 @@ border-right: 0px;
 }
 .people-link{
     text-align: right;
-    margin-top: 10px   
+    margin-top: 10px;
 
 }
 .people-link a{
@@ -256,7 +256,13 @@ border-right: 0px;
     padding: 2px 15px;
     border-radius: 5px;
     color: #000;
+    transition: all 0.5s;
 }
+.read-more-default a:after:hover{
+    background-color: #ffebb0;
+}
+
+
 
 .read-more-default a {
     font-size: 0;
