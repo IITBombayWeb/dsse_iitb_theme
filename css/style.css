@@ -348,7 +348,7 @@ p {
 
 .default-left-sidebar{
     background-color: #dfdfdf;
-    padding: 15px;
+    padding: 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top: 4px solid #cb574b!important;
@@ -361,10 +361,22 @@ p {
 }
 
 .default-left-sidebar ul li{
-    padding: 5px 0px;
+    padding: 8px 0px;
 }
 .default-left-sidebar ul li a{
     color: #000;
+    text-decoration: none;
+}
+.image-style-acad-fac-max-325x325{
+    max-width: 100%;
+}
+.event-date-block{
+    font-style: italic;
+}
+.event-title-block{
+    margin-top: 15px;
+    font-size: 2rem;
+
 }
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
