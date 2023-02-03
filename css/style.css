@@ -387,17 +387,29 @@ p {
     float: left;
     margin-right: 10px;
 }
-.event-linkedin a::before{
+.event-linkedin a, .people-linkedin a::before{
     content: "\f472";
     display: inline-block;
     font-family: bootstrap-icons !important;
     margin-right: 10px;
+    top: 2px;
+    position: relative;
 }
-.event-website a::before{
+.event-website a, .people-website a::before{
     content: "\f3ee";
     display: inline-block;
     font-family: bootstrap-icons !important;
     margin-right: 10px;
+    top: 2px;
+    position: relative;
+}
+.people-email-address a:before{
+    content: "\f32f";
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    margin-right: 10px;
+    top: 2px;
+    position: relative;
 }
 .event-linkedin a, .event-website a{
     text-decoration: none;
@@ -437,7 +449,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     }
 }
 .people-detail-image img {
-    width: 90%;
+    width: 100%;
     height: auto;
-    float: right;
+   
 }
