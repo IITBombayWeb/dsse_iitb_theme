@@ -387,6 +387,18 @@ p {
     float: left;
     margin-right: 10px;
 }
+.event-linkedin a::before{
+    content: "\f472";
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    margin-right: 10px;
+}
+.event-website a::before{
+    content: "\f3ee";
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    margin-right: 10px;
+}
 .event-linkedin a, .event-website a{
     text-decoration: none;
 }
