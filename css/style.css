@@ -376,8 +376,19 @@ p {
 }
 .event-title-block{
     margin-top: 15px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 
+}
+.event-image-detail img{
+    max-width: 100%;
+    height: auto;
+}
+.event-linkedin{
+    float: left;
+    margin-right: 10px;
+}
+.event-website{
+    float: left;
 }
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
