@@ -387,7 +387,14 @@ p {
     float: left;
     margin-right: 10px;
 }
+.event-linkedin a, .event-website a{
+    text-decoration: none;
+}
 .event-website{
+    float: left;
+}
+.event-short-description{
+    width: 100%;
     float: left;
 }
 @media all and (max-width: 768px),
