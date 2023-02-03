@@ -387,7 +387,7 @@ p {
     float: left;
     margin-right: 10px;
 }
-.event-linkedin a, .people-linkedin a::before{
+.event-linkedin a::before, .people-linkedin a::before{
     content: "\f472";
     display: inline-block;
     font-family: bootstrap-icons !important;
@@ -395,7 +395,7 @@ p {
     top: 2px;
     position: relative;
 }
-.event-website a, .people-website a::before{
+.event-website a::before, .people-website a::before{
     content: "\f3ee";
     display: inline-block;
     font-family: bootstrap-icons !important;
