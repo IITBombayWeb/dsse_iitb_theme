@@ -346,48 +346,57 @@ p {
     font-size: 0;
 }
 
-.default-left-sidebar{
+.default-left-sidebar {
     background-color: #dfdfdf;
     padding: 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    border-top: 4px solid #cb574b!important;
+    border-top: 4px solid #cb574b !important;
 }
-.default-left-sidebar ul{
+
+.default-left-sidebar ul {
     padding: 0px;
     margin: 0px;
     list-style-type: none;
 
 }
 
-.default-left-sidebar ul li{
+.default-left-sidebar ul li {
     padding: 8px 0px;
 }
-.default-left-sidebar ul li a{
+
+.default-left-sidebar ul li a {
     color: #000;
     text-decoration: none;
 }
-.image-style-acad-fac-max-325x325{
+
+.image-style-acad-fac-max-325x325 {
     max-width: 100%;
     height: auto;
 }
-.event-date-block{
+
+.event-date-block {
     font-style: italic;
 }
-.event-title-block{
+
+.event-title-block {
     margin-top: 15px;
     font-size: 1.5rem;
 
 }
-.event-image-detail img{
+
+.event-image-detail img {
     max-width: 100%;
     height: auto;
 }
-.event-linkedin{
+
+.event-linkedin {
     float: left;
     margin-right: 10px;
 }
-.event-linkedin a::before, .people-linkedin a::before{
+
+.event-linkedin a::before,
+.people-linkedin a::before {
     content: "\f472";
     display: inline-block;
     font-family: bootstrap-icons !important;
@@ -395,7 +404,9 @@ p {
     top: 2px;
     position: relative;
 }
-.event-website a::before, .people-website a::before{
+
+.event-website a::before,
+.people-website a::before {
     content: "\f3ee";
     display: inline-block;
     font-family: bootstrap-icons !important;
@@ -403,7 +414,8 @@ p {
     top: 2px;
     position: relative;
 }
-.people-email-address a:before{
+
+.people-email-address a:before {
     content: "\f32f";
     display: inline-block;
     font-family: bootstrap-icons !important;
@@ -411,15 +423,34 @@ p {
     top: 2px;
     position: relative;
 }
-.event-linkedin a, .event-website a{
+
+.event-linkedin a,
+.event-website a {
     text-decoration: none;
 }
-.event-website{
+
+.event-website {
     float: left;
 }
-.event-short-description{
+
+.event-short-description {
     width: 100%;
     float: left;
+}
+
+
+.origin-list ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.origin-list ul li{
+    padding: 0px;
+}
+.origin-list ul li .people-row{
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    grid-gap: 15px;
 }
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
@@ -436,8 +467,9 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     #block-footerevents {
         display: none;
     }
-    .region-footer-first{
-        margin: 0px!important;
+
+    .region-footer-first {
+        margin: 0px !important;
     }
 
     .region-footer-second .footer-block-title {
@@ -448,8 +480,9 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
         text-align: center;
     }
 }
+
 .people-detail-image img {
     width: 100%;
     height: auto;
-   
+
 }
