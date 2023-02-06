@@ -483,18 +483,28 @@ p {
 }
 
 .facilities-box .facilities-list ul li {
-    margin: 15px 0px;
+    margin: 45px 0px;
+}
+.facilities-box .facilities-list ul li:first-child{
+    margin-top: 0px;
 }
 
+.facilities-box .facilities-list ul li:last-child{
+    margin-top: 0px;
+}
 .facilities-box .facilities-list ul li .header-row {
     display: grid;
     grid-template-columns: 1fr 200px;
     border-bottom: 1px solid #ffc107;
 }
 
+
 .facilities-box .facilities-list ul li .header-row .item:nth-child(1) {
     font-size: 1.2rem;
     font-weight: 600;
+}
+.facilities-box .facilities-list ul li .header-row .item:nth-child(2){
+    text-align: right;
 }
 
 .facilities-box .facilities-list ul li .header-row .item:nth-child(2) a {
