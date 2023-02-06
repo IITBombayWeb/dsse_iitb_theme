@@ -485,13 +485,15 @@ p {
 .facilities-box .facilities-list ul li {
     margin: 45px 0px;
 }
-.facilities-box .facilities-list ul li:first-child{
+
+.facilities-box .facilities-list ul li:first-child {
     margin-top: 0px;
 }
 
-.facilities-box .facilities-list ul li:last-child{
+.facilities-box .facilities-list ul li:last-child {
     margin-top: 0px;
 }
+
 .facilities-box .facilities-list ul li .header-row {
     display: grid;
     grid-template-columns: 1fr 200px;
@@ -503,7 +505,8 @@ p {
     font-size: 1.2rem;
     font-weight: 600;
 }
-.facilities-box .facilities-list ul li .header-row .item:nth-child(2){
+
+.facilities-box .facilities-list ul li .header-row .item:nth-child(2) {
     text-align: right;
 }
 
@@ -521,6 +524,26 @@ p {
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
+}
+
+.partner-box ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.partner-box ul li{
+    margin: 30px 0px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+.partner-box ul li .item-content .header-row{
+    display: grid;
+    grid-template-columns: 1fr 150px;
+    border-bottom: 1px solid #ffc107;
+}
+.partner-box ul li .item-content .header-row .item-heading{
+    font-size: 1.2rem;    
 }
 
 @media all and (max-width: 768px),
