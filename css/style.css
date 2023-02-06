@@ -444,21 +444,24 @@ p {
     margin: 0px;
     list-style-type: none;
 }
-.origin-list ul li{
+
+.origin-list ul li {
     padding: 0px;
     margin: 30px 0px;
 }
-.origin-list ul li .people-row{
+
+.origin-list ul li .people-row {
     display: grid;
     grid-template-columns: 230px 1fr;
     grid-gap: 25px;
     margin-bottom: 15px;
 }
-.origin-list ul li .people-row .item-img img{
+
+.origin-list ul li .people-row .item-img img {
     border-radius: 15px;
 }
 
-.origin-list ul li .people-row .item-content{
+.origin-list ul li .people-row .item-content {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ffc107;
@@ -467,11 +470,48 @@ p {
     display: grid;
     align-content: space-between;
 }
-.origin-list ul li .people-row .item-content span{
+
+.origin-list ul li .people-row .item-content span {
     font-size: 1rem;
     color: #ad1a1a;
 }
 
+.facilities-box .facilities-list ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.facilities-box .facilities-list ul li {
+    margin: 15px 0px;
+}
+
+.facilities-box .facilities-list ul li .header-row {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    border-bottom: 1px solid #ffc107;
+}
+
+.facilities-box .facilities-list ul li .header-row .item:nth-child(1) {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.facilities-box .facilities-list ul li .header-row .item:nth-child(2) a {
+    margin-right: 1em;
+    padding-right: 18px;
+    background-image: url(/dssedev4/themes/contrib/dsse_iitb_theme/images/Black-Arrow.svg) !important;
+    background-position: 98% 50%;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    font-family: Rubik, sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
 
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
