@@ -446,12 +446,16 @@ p {
 }
 .origin-list ul li{
     padding: 0px;
+    margin: 30px 0px;
 }
 .origin-list ul li .people-row{
     display: grid;
     grid-template-columns: 230px 1fr;
     grid-gap: 25px;
     margin-bottom: 15px;
+}
+.origin-list ul li .people-row .item-img img{
+    border-radius: 15px;
 }
 
 .origin-list ul li .people-row .item-content{
