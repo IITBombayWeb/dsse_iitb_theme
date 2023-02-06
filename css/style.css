@@ -449,9 +449,26 @@ p {
 }
 .origin-list ul li .people-row{
     display: grid;
-    grid-template-columns: 350px 1fr;
-    grid-gap: 15px;
+    grid-template-columns: 230px 1fr;
+    grid-gap: 25px;
+    margin-bottom: 15px;
 }
+
+.origin-list ul li .people-row .item-content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffc107;
+    border-top: 1px solid #ffc107;
+    font-size: 1.1rem;
+    display: grid;
+    align-content: space-between;
+}
+.origin-list ul li .people-row .item-content span{
+    font-size: 1rem;
+    color: #ad1a1a;
+}
+
+
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
 only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px),
