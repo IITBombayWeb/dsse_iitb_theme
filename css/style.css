@@ -370,6 +370,7 @@ p {
 .default-left-sidebar ul li a {
     color: #000;
     text-decoration: none;
+    transition: all 0.5s;
 }
 .default-left-sidebar ul li:hover a{
     color: #cb574b;
@@ -517,7 +518,7 @@ p {
 }
 
 .facilities-box .facilities-list ul li .header-row .item:nth-child(2) a {
-    margin-right: 1em;
+    
     padding-right: 18px;
     background-image: url(/dssedev4/themes/contrib/dsse_iitb_theme/images/Black-Arrow.svg) !important;
     background-position: 98% 50%;
@@ -658,8 +659,20 @@ p {
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
+}
+
+.startup-box .block-inline-blockbasic{
+padding: 15px;
+border-top: 2px solid #cb574b;
+box-shadow: 0px 0px 0px 0px #000;
 
 }
+
+.startup-box .block-inline-blockbasic h2{
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
 only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px),
