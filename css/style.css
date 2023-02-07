@@ -618,6 +618,16 @@ p {
     grid-gap: 15px;
     margin-top: 50px;
 }
+
+.reachus .reachus-row .item-address h4, .downloads h4{
+    border-bottom: 1px solid #c5c5c5;
+    padding-bottom: 7px;
+    margin-bottom: 15px;
+}
+
+
+
+
 .downloads{
     margin-top: 50px;
 }
