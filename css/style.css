@@ -618,10 +618,13 @@ p {
     grid-gap: 15px;
     margin-top: 50px;
 }
+.downloads{
+    margin-top: 50px;
+}
 .downloads .downloadrow{
     display: grid;
     grid-template-columns:repeat(3, 150px);
-    margin-top: 50px;
+   
 
 }
 .downloads .downloadrow .item a::after{
