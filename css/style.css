@@ -726,6 +726,12 @@ p {
     border-radius: 15px;
 }
 
+.people-detail-image img {
+    width: 100%;
+    height: auto;
+}
+
+
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
 only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px),
@@ -753,10 +759,8 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     .region-footer-second ul li {
         text-align: center;
     }
+    .bs-shadow-lg{
+        padding: 15px;
+    }
 }
 
-.people-detail-image img {
-    width: 100%;
-    height: auto;
-
-}
