@@ -765,12 +765,12 @@ p {
 .footer-bottom .item:nth-child(1) .facbook{
     color: #0b30b7;
     font-size: 2.2rem;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .footer-bottom .item:nth-child(1) .linkedin{
     color: #0078ce;
     font-size: 2.2rem;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .footer-bottom .item:nth-child(1) .facbook::before {
