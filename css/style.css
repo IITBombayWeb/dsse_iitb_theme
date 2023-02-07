@@ -759,6 +759,14 @@ p {
 .footer-bottom .item:nth-child(2) {
     border-right: 1px solid #000;
 }
+.footer-bottom .item:nth-child(1) .facbook{
+    color: #0b30b7;
+    font-size: 1.2rem;
+}
+.footer-bottom .item:nth-child(1) .linkedin{
+    color: #0078ce;
+    font-size: 1.2rem;
+}
 
 .footer-bottom .item:nth-child(1) .facbook::before {
     content: "\f344";
@@ -771,6 +779,8 @@ p {
     display: inline-block;
     font-family: bootstrap-icons !important;
 }
+
+
 
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
