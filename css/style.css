@@ -683,6 +683,7 @@ p {
 
 .course-box{
     background-color: #f2f2f2bd;
+    margin: 20px 0px;
 }
 
 .course-box .field--name-field-course-type{
