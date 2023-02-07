@@ -627,13 +627,21 @@ p {
    
 
 }
-.downloads .downloadrow .item a::after{
-    content: "\f472";
-    display: inline-block;
-    font-family: bootstrap-icons !important;
-    margin-right: 10px;
-    top: 2px;
-    position: relative;
+.downloads .downloadrow .item a{
+    margin-right: 1em;
+    padding-right: 18px;
+    background-image: url(/dssedev4/themes/contrib/dsse_iitb_theme/images/Black-Arrow.svg) !important;
+    background-position: 98% 50%;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    font-family: Rubik,sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+
 }
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
