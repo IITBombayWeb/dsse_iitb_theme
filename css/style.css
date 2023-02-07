@@ -323,7 +323,7 @@ p {
 .views-row header .node__title {
     display: none;
 }
-
+/* 
 .read-more-default a:after {
     content: "Know More";
     font-size: 16px;
@@ -336,7 +336,7 @@ p {
     transition: all 0.5s;
     background-color: rgb(0, 97, 161);
 }
-
+ */
 .field--name-field-photo img {
     border-radius: 10px;
 }
@@ -526,6 +526,22 @@ p {
     text-decoration: none;
 }
 
+.read-more-default a:after {
+    content: "Know More";
+    margin-right: 1em;
+    padding-right: 18px;
+    background-image: url(/dssedev4/themes/contrib/dsse_iitb_theme/images/Black-Arrow.svg) !important;
+    background-position: 98% 50%;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    font-family: Rubik, sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
 .partner-box ul {
     padding: 0px;
     margin: 0px;
