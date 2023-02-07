@@ -741,7 +741,17 @@ p {
 .footer-bottom .item:nth-child(2){
     border-right: 1px solid #000;
 }
+.footer-bottom .item:nth-child(1) .facbook::before{
+    content: "\f344";
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+}
 
+.footer-bottom .item:nth-child(1) .linkedin::before{
+    content: "\f344";
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+}
 
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
