@@ -59,11 +59,10 @@ body {
 .nav-item {
     margin-right: 2px;
     margin-left: 2px;
-    /* padding: 16px 1vw 10px; */
-    font-family: Mohave, Verdana, sans-serif;
+    font-family: Mohave,Verdana,sans-serif;
     color: #000;
-   
     font-weight: 300;
+    font-size: 20px;
 }
 
 p {
