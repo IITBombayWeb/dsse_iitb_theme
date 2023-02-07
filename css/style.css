@@ -372,6 +372,7 @@ p {
     color: #000;
     text-decoration: none;
     transition: all 0.5s;
+    font-size: 1rem;
 }
 
 .default-left-sidebar ul li:hover a {
