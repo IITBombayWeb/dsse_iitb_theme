@@ -364,11 +364,16 @@ p {
 
 .default-left-sidebar ul li {
     padding: 8px 0px;
+    transition: all 0.5s;
 }
 
 .default-left-sidebar ul li a {
     color: #000;
     text-decoration: none;
+}
+.default-left-sidebar ul li:hover a{
+    color: #cb574b;
+    padding-left: 10px;
 }
 
 .image-style-acad-fac-max-325x325 {
