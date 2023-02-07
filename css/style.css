@@ -592,11 +592,14 @@ p {
     padding: 15px;  
     font-size: 1.2rem;
     font-weight: 600;  
+    border-radius: 5px;
+
 }
 .contact-box .room-row .item span{
     display: block;
     color: #ad1a1a;
-    font-size: 1rem;
+   font-size: 0.8rem;
+   margin-bottom: 15px;
 }
 
 .contact-box .room-row .item:nth-child(5){
@@ -606,6 +609,18 @@ p {
 .contact-box .room-row .item:nth-child(6){
     background-color: #ebebeb;
     grid-column: 1/-1;
+}
+
+
+.reachus .reachus-row{
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    grid-gap: 15px;
+}
+.downloads .downloadrow{
+    display: grid;
+    grid-template-columns:repeat(3, 150px);
+
 }
 
 @media all and (max-width: 768px),
