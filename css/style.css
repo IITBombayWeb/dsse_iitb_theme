@@ -730,6 +730,10 @@ p {
     height: auto;
 }
 
+.homepage-event  .field--type-entity-reference{
+    margin: 0px !important;
+}
+
 
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
