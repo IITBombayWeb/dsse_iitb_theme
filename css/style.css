@@ -541,6 +541,8 @@ p {
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
+    float: right;
+    margin-top: 12px;
 }
 .partner-box ul {
     padding: 0px;
