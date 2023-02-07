@@ -775,7 +775,7 @@ p {
 }
 
 .footer-bottom .item:nth-child(1) .linkedin::before {
-    content: "\f344";
+    content: "\f472";
     display: inline-block;
     font-family: bootstrap-icons !important;
 }
