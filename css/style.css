@@ -596,6 +596,7 @@ p {
 .contact-box .room-row .item span{
     display: block;
     color: #ad1a1a;
+    font-size: 1rem;
 }
 
 .contact-box .room-row .item:nth-child(5){
