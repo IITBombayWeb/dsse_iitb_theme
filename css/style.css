@@ -696,6 +696,10 @@ p {
     margin-bottom: 20px;
     margin-top: 15px;
 }
+.course-box article{
+    padding-bottom: 0px;
+    border-bottom: 0px;
+}
 
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
