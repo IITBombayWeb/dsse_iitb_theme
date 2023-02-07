@@ -624,7 +624,7 @@ p {
     margin-top: 50px;
 
 }
-.downloads .downloadrow .item a:after{
+.downloads .downloadrow .item a::after{
     content: "\f472";
     display: inline-block;
     font-family: bootstrap-icons !important;
