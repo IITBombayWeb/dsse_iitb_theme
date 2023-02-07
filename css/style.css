@@ -637,7 +637,7 @@ p {
    
 
 }
-.downloads .downloadrow .item a{
+.downloads .downloadrow a{
     margin-right: 1em;
     padding-right: 18px;
     background-image: url(/dssedev4/themes/contrib/dsse_iitb_theme/images/Black-Arrow.svg) !important;
