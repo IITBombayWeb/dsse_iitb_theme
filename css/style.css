@@ -614,15 +614,24 @@ p {
 
 .reachus .reachus-row{
     display: grid;
-    grid-template-columns: 1fr 100px;
+    grid-template-columns: 1fr 173px;
     grid-gap: 15px;
+    margin-top: 50px;
 }
 .downloads .downloadrow{
     display: grid;
     grid-template-columns:repeat(3, 150px);
+    margin-top: 50px;
 
 }
-
+.downloads .downloadrow .item a:after{
+    content: "\f472";
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    margin-right: 10px;
+    top: 2px;
+    position: relative;
+}
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
 only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px),
