@@ -733,6 +733,15 @@ p {
     margin: 0px !important;
 }
 
+.footer-bottom{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+.footer-bottom .item:nth-child(2){
+    border-right: 1px solid #000;
+}
+
 
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
