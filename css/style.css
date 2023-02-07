@@ -701,6 +701,12 @@ p {
     border-bottom: 0px;
 }
 
+.spotlight-box .block-inline-blockbasic{
+    background-color: #eee;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px 0px #ccc;
+}
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
 only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px),
