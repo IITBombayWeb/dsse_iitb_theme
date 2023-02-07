@@ -662,12 +662,20 @@ p {
 }
 
 .startup-box .block-inline-blockbasic{
-padding: 15px;
-border-top: 2px solid #cb574b;
-box-shadow: 0px 0px 0px 0px #000;
+    padding: 15px;
+    border-top: 3px solid #ffc107;
+    box-shadow: 1px 1px 7px 1px #d6d6d6;
+    margin-bottom: 15px;
+    min-height: 200px;
+    display: flex;
+    place-self: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
-
+.startup-box .block-inline-blockbasic:hover{
+    border-color: #cb574b;
+}
 .startup-box .block-inline-blockbasic h2{
     font-size: 1.3rem;
     margin-bottom: 30px;
