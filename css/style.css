@@ -358,6 +358,7 @@ p {
     padding: 0px;
     margin: 0px;
     list-style-type: none;
+    flex-direction: column;
 
 }
 
@@ -633,7 +634,8 @@ p {
 }
 .downloads .downloadrow{
     display: grid;
-    grid-template-columns:repeat(3, 150px);
+    grid-template-columns: repeat(3, 152px);
+    grid-gap: 15px;
    
 
 }
