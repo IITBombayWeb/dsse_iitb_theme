@@ -267,6 +267,7 @@ p {
     text-align: left;
     display: block;
     width: 100%;
+    margin-left: 0px;
 }
 
 .site-footer {
