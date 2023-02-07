@@ -662,11 +662,11 @@ p {
 }
 
 .startup-box .block-inline-blockbasic{
-    padding: 15px;
+    padding: 20px;
     border-top: 3px solid #ffc107;
     box-shadow: 1px 1px 7px 1px #d6d6d6;
     margin-bottom: 15px;
-    min-height: 200px;
+    min-height: 212px;
     display: flex;
     place-self: flex-start;
     flex-direction: column;
@@ -679,6 +679,19 @@ p {
 .startup-box .block-inline-blockbasic h2{
     font-size: 1.3rem;
     margin-bottom: 30px;
+}
+
+.course-box{
+    background-color: #f2f2f2bd;
+}
+
+.course-box .field--name-field-course-type{
+    text-align: right;
+}
+
+.course-box h4 {
+    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 @media all and (max-width: 768px),
