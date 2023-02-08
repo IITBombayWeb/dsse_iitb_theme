@@ -106,12 +106,18 @@ p {
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
+    position: relative;
 }
-.block-inline-blocktext-with-image .field--name-field-links .field__item a::before{
+.block-inline-blocktext-with-image .field--name-field-links .field__item a::after{
     content: '';
     height: 2px;
-    width: 100%;
+    width: 0%;
     background-color: #ad1a1a;
+    position: absolute;
+    transition: all 0.5s;
+}
+.block-inline-blocktext-with-image .field--name-field-links .field__item a:hover ::after{
+    width: 100%;
 }
 
 .field.field--name-field-title.field--type-string.field--label-hidden.field__item {
