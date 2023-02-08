@@ -107,6 +107,12 @@ p {
     font-weight: 400;
     text-decoration: none;
 }
+.block-inline-blocktext-with-image .field--name-field-links .field__item a::before{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #ad1a1a;
+}
 
 .field.field--name-field-title.field--type-string.field--label-hidden.field__item {
     position: absolute;
