@@ -47,7 +47,7 @@ body {
     z-index: 5;
     padding: 40px 3% 0px;
     height: 500px;
-    margin-top: 12rem;
+    margin-top: 3rem;
 }
 
 .site-footer .content {
@@ -833,10 +833,27 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     .origin-list ul li .people-row, .partner-box ul li{
         grid-template-columns: 1fr;
     }
-    .downloads .downloadrow{
+    .downloads .downloadrow, .welcome-content{
         grid-template-columns: 1fr;
     }
-
+    .welcome-content .item{
+        border-bottom: 0px;
+    }
     
+
+    .welcome-content{
+        background-color: #fbb041;
+        display: grid;
+        grid-template-columns: 1fr;
+        border-radius: 10px;
+        padding: 15px;
+        margin-top: 25px;
+        row-gap: 25px;
+    }
+    .block-inline-blocktext-with-image .field--name-field-links{
+        display: flex;
+        row-gap: 10px;
+        flex-direction: column;
+    }
     
 }
