@@ -157,11 +157,13 @@ p {
 /* custome style */
 
 .welcome-content {
-    background-color: #fff7c9;
+    background-color: #fbb041;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 10px;
-    padding: 15px
+    padding: 15px;
+    margin-top: 25px;
+
 }
 
 .welcome-content .item {
