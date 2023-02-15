@@ -25,6 +25,10 @@ body {
 
 #navbar-main {
     background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.56), hsla(0, 0%, 100%, 0.56)), url(/dssedev4/themes/contrib/dsse_iitb_theme/images/UpdatedLight-Short-BW-Warli.jpg);
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, auto 221px;
+    background-repeat: repeat, repeat;
+    background-attachment: scroll, fixed; 
 }
 
 .navbar-brand {
