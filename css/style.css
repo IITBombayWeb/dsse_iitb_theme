@@ -123,6 +123,7 @@ p {
     position: absolute;
     bottom: 0;
     transition: all 0.5s ;
+    left: 0;
 }
 .block-inline-blocktext-with-image .field--name-field-links .field__item a:hover{
     color: #bc1f23; 
