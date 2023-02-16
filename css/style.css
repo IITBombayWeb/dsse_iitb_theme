@@ -290,10 +290,10 @@ p {
     color: rgb(0, 9, 128);
 }
 
-.homepage-people-cards .block-layout-builder:odd .col-md-4{
+.homepage-people-cards .block-layout-builder:nth-child(odd) .col-md-4{
     order: 1;
 }
-.homepage-people-cards .block-layout-builder:even .col-md-4{
+.homepage-people-cards .block-layout-builder:nth-child(even) .col-md-4{
     order: 2;
 }
 
