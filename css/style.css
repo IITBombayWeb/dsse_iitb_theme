@@ -122,9 +122,14 @@ p {
     width: 100%;
     position: absolute;
     bottom: 0;
+    transition: all 0.5s ;
 }
 .block-inline-blocktext-with-image .field--name-field-links .field__item a:hover{
     color: #bc1f23; 
+    
+}
+.block-inline-blocktext-with-image .field--name-field-links .field__item a:hover::after{
+    width: 0%;
 }
 
 .field.field--name-field-title.field--type-string.field--label-hidden.field__item {
