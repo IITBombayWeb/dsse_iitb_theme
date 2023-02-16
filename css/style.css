@@ -733,10 +733,22 @@ p {
 }
 
 .course-box {
-    background-color: #f2f2f2bd;
+    background-color: #f2f2f2b0;
     margin: 20px 0px;
-    border-top: 3px solid #f3d98b;
-    box-shadow: 0px 0px 0px #ccc;
+    border-top: 3px solid #fbb041;
+    box-shadow: 2px 6px 8px 0px #cccccc82;
+}
+.course-box ._none{
+    margin-bottom: 20px; 
+}
+
+.course-box .course-type  .field--type-list-string{
+    background-color: #cb574b;
+    width: fit-content;
+    padding: 0px 15px;
+    border-radius: 50px;
+    float: right;
+    color: white;
 }
 
 .course-box .field--name-field-course-type {
