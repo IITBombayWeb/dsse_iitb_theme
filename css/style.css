@@ -289,9 +289,11 @@ p {
 .site-footer__top .content li a:hover {
     color: rgb(0, 9, 128);
 }
-
+.homepage-people-cards .block-layout-builder .card {
+    border: 0px;
+}
 .homepage-people-cards .block-layout-builder:nth-child(odd) .col-md-4{
-    order: 1;
+    order: unset;
 }
 .homepage-people-cards .block-layout-builder:nth-child(even) .col-md-4{
     order: 2;
