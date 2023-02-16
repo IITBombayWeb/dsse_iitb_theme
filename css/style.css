@@ -938,7 +938,8 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
         margin-top:20px ;
     }
     .navbar-brand {
-        width: 100vw;
+        width: 61vw;
+        height: 48px;
     }
     
 }
