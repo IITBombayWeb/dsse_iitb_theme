@@ -111,8 +111,20 @@ p {
     font-weight: 400;
     text-decoration: none;
     position: relative;
+    transition: all 0.5s;
+    position: relative;
 }
-
+.block-inline-blocktext-with-image .field--name-field-links .field__item a::after{
+    content: '';
+    height: 2px;
+    background-color: #0078ce;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.block-inline-blocktext-with-image .field--name-field-links .field__item a:hover{
+    color: #bc1f23;
+}
 
 .field.field--name-field-title.field--type-string.field--label-hidden.field__item {
     position: absolute;
