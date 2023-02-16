@@ -937,5 +937,8 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     .homepage-people-cards .block-layout-builder .col-md-8 .card-body h2{
         margin-top:20px ;
     }
+    .navbar-brand {
+        width: 100vw;
+    }
     
 }
