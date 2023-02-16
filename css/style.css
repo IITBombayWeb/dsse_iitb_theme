@@ -113,6 +113,7 @@ p {
     position: relative;
     transition: all 0.5s;
     position: relative;
+    font-weight: 600;
 }
 .block-inline-blocktext-with-image .field--name-field-links .field__item a::after{
     content: '';
@@ -123,7 +124,7 @@ p {
     bottom: 0;
 }
 .block-inline-blocktext-with-image .field--name-field-links .field__item a:hover{
-    color: #bc1f23;
+    color: #bc1f23; 
 }
 
 .field.field--name-field-title.field--type-string.field--label-hidden.field__item {
