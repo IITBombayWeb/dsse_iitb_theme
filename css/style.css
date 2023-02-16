@@ -107,7 +107,7 @@ p {
     transition: all 200ms ease;
     font-family: Rubik, sans-serif;
     color: #000;
-    font-size: 16px;
+    font-size: 0.9rem;
     font-weight: 400;
     text-decoration: none;
     position: relative;
