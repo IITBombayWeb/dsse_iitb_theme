@@ -118,12 +118,13 @@ p {
 .block-inline-blocktext-with-image .field--name-field-links .field__item a::after{
     content: '';
     height: 2px;
-    background-color: #0078ce;
+    background-color: #fbb041;
     width: 0%;
     position: absolute;
     bottom: 0;
     transition: all 0.5s ;
     left: 0;
+    bottom: -6px;
 }
 .block-inline-blocktext-with-image .field--name-field-links .field__item a:hover{
     color: #bc1f23; 
