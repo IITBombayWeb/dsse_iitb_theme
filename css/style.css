@@ -907,5 +907,14 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
         row-gap: 10px;
         flex-direction: column;
     }
+    .homepage-people-cards .block-layout-builder:nth-child(even) .col-md-4 {
+        order: unset;
+    }
+    .homepage-people-cards .block-layout-builder .card img{
+        width: 100%;
+    }
+    .homepage-people-cards .block-layout-builder .col-md-8 .card-body h2{
+        margin-top:20px ;
+    }
     
 }
