@@ -889,6 +889,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     }
     .welcome-content .item{
         border-bottom: 0px;
+        border-right: 0px;
     }
     
 
