@@ -175,6 +175,9 @@ p {
     color: #5d1f14;
 
 }
+.welcome-content .item h2{
+    font-size: 3rem;
+}
 
 .welcome-content .item span {
     font-size: 1rem;
