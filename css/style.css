@@ -246,7 +246,7 @@ p {
 }
 
 .region-footer-first .contact-address {
-    background-color: #f3d98b;
+    background-color: #fbb041;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -849,6 +849,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
         padding: 15px;
         margin-top: 25px;
         row-gap: 25px;
+        border-right: 0px;
     }
     .block-inline-blocktext-with-image .field--name-field-links{
         display: flex;
