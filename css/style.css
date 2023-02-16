@@ -98,7 +98,7 @@ p {
 
 .block-inline-blocktext-with-image .field--name-field-links .field__item a {
     margin-right: 1em;
-    padding-right: 18px;
+    padding-right: 22px;
     background-image: url(/dssedev4/themes/contrib/dsse_iitb_theme/images/Black-Arrow.svg) !important;
     background-position: 98% 50%;
     background-size: 12px 12px;
@@ -812,6 +812,9 @@ p {
     font-family: bootstrap-icons !important;
 }
 
+.column-center{
+    margin-top:3rem;
+}
 
 
 @media all and (max-width: 768px),
