@@ -167,11 +167,12 @@ p {
 }
 
 .welcome-content .item {
-    font-size: 2.5rem;
+    font-size: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-right: 1px solid #000;
+    color: #5d1f14;
 
 }
 
@@ -497,7 +498,7 @@ p {
 
 .origin-list ul li {
     padding: 0px;
-    margin: 30px 0px;
+    margin: 60px 0px;
 }
 
 .origin-list ul li .people-row {
@@ -516,7 +517,7 @@ p {
     padding-bottom: 10px;
     border-bottom: 1px solid #ffc107;
     border-top: 1px solid #ffc107;
-    font-size: 1.1rem;
+ 
     display: grid;
     align-content: space-between;
 }
