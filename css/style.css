@@ -292,9 +292,7 @@ p {
 .homepage-people-cards .block-layout-builder .card {
     border: 0px;
 }
-.homepage-people-cards .block-layout-builder .card  .card-body {
-    padding: 10px 20px 10px 0px;
-}
+
 .homepage-people-cards .block-layout-builder .card  .card-body .field--type-link{
     border-top: 1px solid #ccc;
     padding-top: 10px
@@ -308,7 +306,16 @@ p {
 .homepage-people-cards .block-layout-builder:nth-child(even) .col-md-4{
     order: 2;
 }
+.homepage-people-cards .block-layout-builder:nth-child(odd) .col-md-8 .card-body{
+    padding-right: 0px;
+    padding-top: 0px;
 
+}
+.homepage-people-cards .block-layout-builder:nth-child(even) .col-md-8 .card-body{
+    padding-left: 0px;
+    padding-top: 0px;
+
+}
 @media (min-width: 992px) {
     .text-is-right {
         font-size: 20px;
