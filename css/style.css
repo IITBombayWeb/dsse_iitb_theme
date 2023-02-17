@@ -869,6 +869,10 @@ p {
     margin-right: 0px;
 }
 
+.homepage-people-cards .image-style-people-image{
+    max-width: 100%;
+}
+
 
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
