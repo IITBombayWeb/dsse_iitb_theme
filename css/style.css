@@ -865,6 +865,10 @@ p {
     margin-top:3rem;
 }
 
+.dsse-banner .field--name-field-media-image{
+    margin-right: 0px;
+}
+
 
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
