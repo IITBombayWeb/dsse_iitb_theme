@@ -871,6 +871,7 @@ p {
 
 .homepage-people-cards .image-style-people-image{
     max-width: 100%;
+    height: auto;
 }
 
 
