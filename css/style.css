@@ -965,5 +965,12 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
         width: 61vw;
         height: 48px;
     }
+    .people-name {
+        
+        font-size: 0.8rem;
+    }
+    .people-link{
+        margin-top: -9px;
+    }
     
 }
