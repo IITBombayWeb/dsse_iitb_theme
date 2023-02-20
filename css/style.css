@@ -327,6 +327,9 @@ p {
 .homepage-people-cards .block-layout-builder .card {
     border: 0px;
 }
+.homepage-people-cards .card .row{
+    align-items: center;
+}
 
 .homepage-people-cards .block-layout-builder .card  .card-body .field--type-link{
     border-top: 1px solid #ccc;
