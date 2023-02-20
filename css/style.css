@@ -178,7 +178,7 @@ p {
 /* custome style */
 
 .welcome-content {
-    background-color: #fbb041;
+    background-color: #fbb00987; 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 10px;
@@ -271,7 +271,7 @@ p {
 }
 
 .region-footer-first .contact-address {
-    background-color: #fbb041;
+    background-color: #fbb00987;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
