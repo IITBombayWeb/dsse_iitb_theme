@@ -888,6 +888,9 @@ p {
     max-width: 100%;
     height: auto;
 }
+.site-footer__bottom{
+    margin-top: 0px;
+}
 
 
 @media all and (max-width: 768px),
@@ -972,5 +975,9 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     .people-link{
         margin-top: -9px;
     }
+    .default-left-sidebar{
+        margin-bottom: 15px;
+    }
+
     
 }
