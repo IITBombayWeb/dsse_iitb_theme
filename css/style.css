@@ -10,7 +10,7 @@ body {
 }
 
 .site-name-slogan a {
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 .card-group img {
@@ -347,11 +347,13 @@ p {
 .homepage-people-cards .block-layout-builder:nth-child(odd) .col-md-8 .card-body{
     padding-right: 0px;
     padding-top: 0px;
+    padding-left: 50px;
 
 }
 .homepage-people-cards .block-layout-builder:nth-child(even) .col-md-8 .card-body{
     padding-left: 0px;
     padding-top: 0px;
+    padding-right: 50px;
 
 }
 
@@ -885,7 +887,7 @@ p {
 }
 
 .homepage-people-cards .image-style-people-image{
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 .site-footer__bottom{
