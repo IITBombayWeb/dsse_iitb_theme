@@ -33,7 +33,7 @@ body {
 
 .navbar-brand {
     width: 22vw;
-    height: 54px;
+    height: 68px;
     max-width: 242px;
     background-position: 0% 10%;
     background-size: contain;
@@ -892,6 +892,10 @@ p {
 }
 .site-footer__bottom{
     margin-top: 0px;
+}
+
+.site-footer__top .region:first-child {
+    padding-left:0.65%;
 }
 
 
