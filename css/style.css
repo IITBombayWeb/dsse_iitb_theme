@@ -897,7 +897,20 @@ p {
 .site-footer__top .region:first-child {
     padding-left:0.65%;
 }
-
+.people-listing-section .people-card-sec{
+    margin: 40px 0px;
+}
+.people-listing-section .people-card-sec h2{
+    border-bottom: 2px solid #000;
+    font-size: 1.2rem;
+}
+.people-listing-section .people-card-sec .people-link-attr a{
+    position: relative;
+}
+.people-listing-section .people-card-sec .people-link-attr a::before{
+    content: "\f472";
+    font-size: 2rem;
+}
 
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
