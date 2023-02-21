@@ -913,6 +913,12 @@ p {
     content: "\f472";
     font-size: 1.5rem;
     font-family: bootstrap-icons !important;
+    position: relative;
+    top: 6px;
+    margin-right: 10px;
+}
+.people-link-attr{
+    margin-bottom: 10px;
 }
 .people-listing-section .people-card-sec img{
 border-radius: 7px;
