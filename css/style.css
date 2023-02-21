@@ -34,10 +34,10 @@ body {
 .navbar-brand {
     width: 22vw;
     height: 68px;
-    max-width: 242px;
+    max-width: 320px;
     background-position: 0% 10%;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 }
 
 .site-footer {
