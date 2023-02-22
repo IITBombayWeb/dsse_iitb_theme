@@ -10,7 +10,7 @@ body {
 }
 
 .site-name-slogan a {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .card-group img {
@@ -28,7 +28,7 @@ body {
     background-position: 0px 0px, 50% 50%;
     background-size: auto, auto 221px;
     background-repeat: repeat, repeat;
-    background-attachment: scroll, fixed; 
+    background-attachment: scroll, fixed;
 }
 
 .navbar-brand {
@@ -37,7 +37,7 @@ body {
     max-width: 320px;
     background-position: 0% 10%;
     background-size: contain;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
 
 .site-footer {
@@ -48,13 +48,14 @@ body {
     padding: 40px 3% 0px;
     height: 500px;
     margin-top: 3rem;
-    background-size: auto,auto 240px !important;  
+    background-size: auto, auto 240px !important;
 }
 
 .site-footer .content {
     color: #000;
 }
-.site-footer .block{
+
+.site-footer .block {
     padding: 0px;
     margin: 11px 0;
 }
@@ -120,22 +121,25 @@ p {
     position: relative;
     font-weight: 600;
 }
-.block-inline-blocktext-with-image .field--name-field-links .field__item a::after{
+
+.block-inline-blocktext-with-image .field--name-field-links .field__item a::after {
     content: '';
     height: 2px;
     background-color: #fbb041;
     width: 0%;
     position: absolute;
     bottom: 0;
-    transition: all 0.5s ;
+    transition: all 0.5s;
     left: 0;
     bottom: -6px;
 }
-.block-inline-blocktext-with-image .field--name-field-links .field__item a:hover{
-    color: #bc1f23; 
-    
+
+.block-inline-blocktext-with-image .field--name-field-links .field__item a:hover {
+    color: #bc1f23;
+
 }
-.block-inline-blocktext-with-image .field--name-field-links .field__item a:hover::after{
+
+.block-inline-blocktext-with-image .field--name-field-links .field__item a:hover::after {
     width: 100%;
 }
 
@@ -182,7 +186,7 @@ p {
 /* custome style */
 
 .welcome-content {
-    background-color: #fbb00987; 
+    background-color: #fbb00987;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 10px;
@@ -200,7 +204,8 @@ p {
     color: #5d1f14;
 
 }
-.welcome-content .item h2{
+
+.welcome-content .item h2 {
     font-size: 3rem;
 }
 
@@ -315,7 +320,7 @@ p {
     color: #000;
     display: block;
     border-bottom: 1px solid #555;
-    border-color: rgba(255,255,255,0.15);
+    border-color: rgba(255, 255, 255, 0.15);
     line-height: 1.2;
     padding: 5px 14px 5px 15px;
     text-indent: -15px;
@@ -324,40 +329,47 @@ p {
 .site-footer__top .content li a:hover {
     color: rgb(0, 9, 128);
 }
+
 .homepage-people-cards .block-layout-builder .card {
     border: 0px;
 }
-.homepage-people-cards .card .row{
+
+.homepage-people-cards .card .row {
     align-items: center;
 }
 
-.homepage-people-cards .block-layout-builder .card  .card-body .field--type-link{
+.homepage-people-cards .block-layout-builder .card .card-body .field--type-link {
     border-top: 1px solid #ccc;
     padding-top: 10px
 }
-.homepage-people-cards .block-layout-builder{
+
+.homepage-people-cards .block-layout-builder {
     margin-bottom: 2em;
 }
-.homepage-people-cards .block-layout-builder:nth-child(odd) .col-md-4{
+
+.homepage-people-cards .block-layout-builder:nth-child(odd) .col-md-4 {
     order: unset;
 }
-.homepage-people-cards .block-layout-builder:nth-child(even) .col-md-4{
+
+.homepage-people-cards .block-layout-builder:nth-child(even) .col-md-4 {
     order: 2;
 }
-.homepage-people-cards .block-layout-builder:nth-child(odd) .col-md-8 .card-body{
+
+.homepage-people-cards .block-layout-builder:nth-child(odd) .col-md-8 .card-body {
     padding-right: 0px;
     padding-top: 0px;
     padding-left: 50px;
 
 }
-.homepage-people-cards .block-layout-builder:nth-child(even) .col-md-8 .card-body{
+
+.homepage-people-cards .block-layout-builder:nth-child(even) .col-md-8 .card-body {
     padding-left: 0px;
     padding-top: 0px;
     padding-right: 50px;
 
 }
 
-.text-justify{
+.text-justify {
     text-align: justify;
 }
 
@@ -557,7 +569,7 @@ p {
     padding-bottom: 10px;
     border-bottom: 1px solid #ffc107;
     border-top: 1px solid #ffc107;
- 
+
     display: grid;
     align-content: space-between;
 }
@@ -785,11 +797,12 @@ p {
     border-top: 3px solid #fbb041;
     box-shadow: 2px 6px 8px 0px #cccccc82;
 }
-.course-box ._none{
-    margin-bottom: 20px; 
+
+.course-box ._none {
+    margin-bottom: 20px;
 }
 
-.course-box .course-type  .field--type-list-string{
+.course-box .course-type .field--type-list-string {
     background-color: #cb574b;
     width: fit-content;
     padding: 0px 15px;
@@ -821,7 +834,7 @@ p {
 
 .homepage-event {
     box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
-    padding:45px;
+    padding: 45px;
     background-color: #f1f1f1;
     background-image: linear-gradient(225deg, rgba(107, 80, 37, 0.44) 22%, rgba(20, 15, 1, 0.53) 47%), url(/dssedev4/themes/contrib/dsse_iitb_theme/images/UpdatedLight-Short-BW-Warli.jpg);
     background-position: 0px 0px, 50% 50%;
@@ -855,12 +868,14 @@ p {
 .footer-bottom .item:nth-child(2) {
     border-right: 1px solid #000;
 }
-.footer-bottom .item:nth-child(1) .facbook{
+
+.footer-bottom .item:nth-child(1) .facbook {
     color: #0b30b7;
     font-size: 2.2rem;
     text-decoration: none;
 }
-.footer-bottom .item:nth-child(1) .linkedin{
+
+.footer-bottom .item:nth-child(1) .linkedin {
     color: #0078ce;
     font-size: 2.2rem;
     text-decoration: none;
@@ -878,44 +893,51 @@ p {
     font-family: bootstrap-icons !important;
 }
 
-.column-center{
-    margin-top:3rem;
+.column-center {
+    margin-top: 3rem;
 }
 
-.dsse-banner .field--name-field-media-image{
+.dsse-banner .field--name-field-media-image {
     margin-right: 0px;
 }
 
-.homepage-people-cards .image-style-people-image{
+.homepage-people-cards .image-style-people-image {
     width: 100%;
     height: auto;
 }
-.site-footer__bottom{
+
+.site-footer__bottom {
     margin-top: 0px;
 }
 
 .site-footer__top .region:first-child {
-    padding-left:0.65%;
+    padding-left: 0.65%;
 }
-.people-listing-section .people-card-sec{
+
+.people-listing-section .people-card-sec {
     margin: 40px 0px;
 }
-.people-listing-section .people-card-sec:first-child{
+
+.people-listing-section .people-card-sec:first-child {
     margin-top: 0px;
 }
-.people-listing-section .people-card-sec:last-child{
+
+.people-listing-section .people-card-sec:last-child {
     margin-bottom: 0px;
 }
-.people-listing-section .people-card-sec h2{
+
+.people-listing-section .people-card-sec h2 {
     border-bottom: 2px solid #ffa900;
     font-size: 1.5rem;
     padding-bottom: 5px;
 }
-.people-listing-section .people-card-sec .people-link-attr a{
+
+.people-listing-section .people-card-sec .people-link-attr a {
     position: relative;
     text-decoration: none;
 }
-.people-listing-section .people-card-sec .people-link-attr a::before{
+
+.people-listing-section .people-card-sec .people-link-attr a::before {
     content: "\f472";
     font-size: 1.5rem;
     font-family: bootstrap-icons !important;
@@ -923,12 +945,54 @@ p {
     top: 6px;
     margin-right: 10px;
 }
-.people-link-attr{
+
+.people-link-attr {
     margin-bottom: 10px;
 }
-.people-listing-section .people-card-sec img{
-border-radius: 7px;
+
+.people-listing-section .people-card-sec img {
+    border-radius: 7px;
 }
+
+.people-listing-section .people-card-sec .people-know-more a {
+    margin-right: 1em;
+    padding-right: 22px;
+    background-image: url(/dssedev4/themes/contrib/dsse_iitb_theme/images/Black-Arrow.svg) !important;
+    background-position: 98% 50%;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    font-family: Rubik, sans-serif;
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.5s;
+    position: relative;
+    font-weight: 600;
+}
+
+.people-listing-section .people-card-sec .people-know-more a::after {
+    content: '';
+    height: 2px;
+    background-color: #fbb041;
+    width: 0%;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.5s;
+    left: 0;
+    bottom: -6px; 
+}
+.people-listing-section .people-card-sec .people-know-more a:hover::after {
+    width: 100%;
+}
+
+
+
+
+
 
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
@@ -961,23 +1025,31 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     .bs-shadow-lg {
         padding: 15px;
     }
-    .footer-bottom, .contact-box .room-row, .reachus .reachus-row{
+
+    .footer-bottom,
+    .contact-box .room-row,
+    .reachus .reachus-row {
         grid-template-columns: 1fr;
         grid-gap: 15px;
     }
-    .origin-list ul li .people-row, .partner-box ul li{
+
+    .origin-list ul li .people-row,
+    .partner-box ul li {
         grid-template-columns: 1fr;
     }
-    .downloads .downloadrow, .welcome-content{
+
+    .downloads .downloadrow,
+    .welcome-content {
         grid-template-columns: 1fr;
     }
-    .welcome-content .item{
+
+    .welcome-content .item {
         border-bottom: 0px;
         border-right: 0px;
     }
-    
 
-    .welcome-content{
+
+    .welcome-content {
         background-color: #fbb041;
         display: grid;
         grid-template-columns: 1fr;
@@ -987,34 +1059,42 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
         row-gap: 25px;
         border-right: 0px;
     }
-    .block-inline-blocktext-with-image .field--name-field-links{
+
+    .block-inline-blocktext-with-image .field--name-field-links {
         display: flex;
         row-gap: 10px;
         flex-direction: column;
     }
+
     .homepage-people-cards .block-layout-builder:nth-child(even) .col-md-4 {
         order: unset;
     }
-    .homepage-people-cards .block-layout-builder .card img{
+
+    .homepage-people-cards .block-layout-builder .card img {
         width: 100%;
     }
-    .homepage-people-cards .block-layout-builder .col-md-8 .card-body h2{
-        margin-top:20px ;
+
+    .homepage-people-cards .block-layout-builder .col-md-8 .card-body h2 {
+        margin-top: 20px;
     }
+
     .navbar-brand {
         width: 61vw;
         height: 48px;
     }
+
     .people-name {
-        
+
         font-size: 0.8rem;
     }
-    .people-link{
+
+    .people-link {
         margin-top: -9px;
     }
-    .default-left-sidebar{
+
+    .default-left-sidebar {
         margin-bottom: 15px;
     }
 
-    
+
 }
