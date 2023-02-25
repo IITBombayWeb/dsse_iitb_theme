@@ -1116,6 +1116,9 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     .default-left-sidebar {
         margin-bottom: 15px;
     }
+    .people-detail-col-2{
+        grid-template-columns: 1fr;
+    }
 
 
 }
