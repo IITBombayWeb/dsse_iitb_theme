@@ -981,7 +981,10 @@ p {
 
 .people-listing-section .people-card-sec img {
     border-radius: 7px;
+    max-width: 100%;
+    height: auto;
 }
+
 
 .people-listing-section .people-card-sec .people-know-more a {
     margin-right: 1em;
@@ -1040,7 +1043,14 @@ p {
 }
 
 
-
+@media only screen and (max-width: 1366px) and (min-width: 769px)  {
+    .people-card-sec .bio-sec{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-clamp: 5;
+        display: -webkit-box;       
+    }
+}
 
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
