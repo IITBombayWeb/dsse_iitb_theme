@@ -875,13 +875,17 @@ p {
 
 }
 
-.footer-bottom .item {
+.footer-bottom .item:nth-child(2) {
     text-align: right;
 }
 .site-footer__bottom .region{
     margin-top: 0px;
 }
-
+.region-footer-first{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-gap: 150px;
+}
 
 
 .footer-bottom .item:nth-child(1) .facbook {
@@ -912,7 +916,7 @@ p {
     display: inline-block;
     font-family: bootstrap-icons !important;
 }
-.footer-bottom .item:nth-child(1) .linkedin::before {
+.footer-bottom .item:nth-child(1) .youtube::before {
     content: "\f344";
     display: inline-block;
     font-family: bootstrap-icons !important;
@@ -1145,6 +1149,9 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     }
 
     .region-footer-second {
+        grid-template-columns: 1fr;
+    }
+    .region-footer-first{
         grid-template-columns: 1fr;
     }
 
