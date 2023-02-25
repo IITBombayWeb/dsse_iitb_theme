@@ -2,8 +2,6 @@
  * @file
  * Subtheme specific CSS.
  */
-
-
 body {
     background: white;
     font-family: Rubik, sans-serif;
@@ -21,6 +19,16 @@ body {
 
 .card-group .field--type-image {
     margin: 0
+}
+
+header .navbar-nav ul li:last-child {
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+}
+
+header .navbar-nav ul li:last-child a {
+    margin-right: 0px !important;
+    padding-right: 0px !important;
 }
 
 #navbar-main {
@@ -459,7 +467,7 @@ p {
 
 .default-left-sidebar ul li {
     padding: 12px 0px;
-   
+
 }
 
 .default-left-sidebar ul li a {
@@ -471,7 +479,7 @@ p {
 }
 
 .default-left-sidebar ul li:hover a {
-    color: #cb574b;    
+    color: #cb574b;
 }
 
 .image-style-acad-fac-max-325x325 {
@@ -984,8 +992,9 @@ p {
     bottom: 0;
     transition: all 0.5s;
     left: 0;
-    bottom: -6px; 
+    bottom: -6px;
 }
+
 .people-listing-section .people-card-sec .people-know-more a:hover::after {
     width: 100%;
 }
