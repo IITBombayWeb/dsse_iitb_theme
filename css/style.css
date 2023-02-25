@@ -1000,6 +1000,17 @@ p {
 }
 
 
+.people-detail-col-2{
+    display: grid;
+    grid-template-columns: 222px 1fr;
+    grid-gap: 40px;
+
+    
+}
+.people-detail-col-2 .image-style-people-listing{
+    max-width: 100%;
+    height: auto;
+}
 
 
 
