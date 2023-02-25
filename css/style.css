@@ -917,7 +917,7 @@ p {
     font-family: bootstrap-icons !important;
 }
 .footer-bottom .item:nth-child(1) .youtube::before {
-    content: "\f344";
+    content: "\f62b";
     display: inline-block;
     font-family: bootstrap-icons !important;
 }
