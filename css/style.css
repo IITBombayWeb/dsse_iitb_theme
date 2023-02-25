@@ -869,14 +869,20 @@ p {
 
 .footer-bottom {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
     align-items: center;
+
 }
 
-.footer-bottom .item:nth-child(2) {
-    border-right: 1px solid #000;
+.footer-bottom .item {
+    text-align: right;
 }
+.site-footer__bottom .region{
+    margin-top: 0px;
+}
+
+
 
 .footer-bottom .item:nth-child(1) .facbook {
     color: #0b30b7;
@@ -889,6 +895,11 @@ p {
     font-size: 2.2rem;
     text-decoration: none;
 }
+.footer-bottom .item:nth-child(1) .youtube {
+    color: #c31111;
+    font-size: 2.2rem;
+    text-decoration: none; 
+}
 
 .footer-bottom .item:nth-child(1) .facbook::before {
     content: "\f344";
@@ -898,6 +909,11 @@ p {
 
 .footer-bottom .item:nth-child(1) .linkedin::before {
     content: "\f472";
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+}
+.footer-bottom .item:nth-child(1) .linkedin::before {
+    content: "\f344";
     display: inline-block;
     font-family: bootstrap-icons !important;
 }
@@ -1000,16 +1016,23 @@ p {
 }
 
 
-.people-detail-col-2{
+.people-detail-col-2 {
     display: grid;
     grid-template-columns: 222px 1fr;
     grid-gap: 40px;
 
-    
+
 }
-.people-detail-col-2 .image-style-people-listing{
+
+.people-detail-col-2 .image-style-people-listing {
     max-width: 100%;
     height: auto;
+}
+
+.region-footer-second {
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
 
 
@@ -1116,7 +1139,12 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     .default-left-sidebar {
         margin-bottom: 15px;
     }
-    .people-detail-col-2{
+
+    .people-detail-col-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .region-footer-second {
         grid-template-columns: 1fr;
     }
 
