@@ -578,12 +578,10 @@ p {
     padding-bottom: 10px;
     border-bottom: 1px solid #ffc107;
     border-top: 1px solid #ffc107;
-
-    display: grid;
-   
+    display: grid;   
     align-content: center;
     align-items: center;
-    font-weight: 700;
+ 
 }
 
 .origin-list ul li .people-row .item-content span {
