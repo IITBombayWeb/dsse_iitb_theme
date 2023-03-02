@@ -947,7 +947,9 @@ p {
     padding-right: 0;
     margin-left: 0px;
 }
-
+.site-footer__top .region{
+    padding: 0 0;
+}
 .people-listing-section .people-card-sec {
     margin: 40px 0px;
 }
@@ -958,6 +960,10 @@ p {
 
 .people-listing-section .people-card-sec:last-child {
     margin-bottom: 0px;
+}
+.site-footer__bottom .region {
+    margin-top: 0px;
+    padding: 0px 13px;
 }
 
 .people-listing-section .people-card-sec h2 {
@@ -1175,6 +1181,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     }
     .region-footer-first{
         grid-template-columns: 1fr;
+        grid-gap: 10px;
     }
 
 
