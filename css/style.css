@@ -1058,7 +1058,12 @@ p {
         -webkit-box-orient: vertical;   
     }
 }
-
+.site-footer .content a, .site-footer .content a.is-active {
+    color: #000;
+}
+.footer-reachus-block .content .nav .nav-item a {
+    pointer-events: none;
+}
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
 only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px),
