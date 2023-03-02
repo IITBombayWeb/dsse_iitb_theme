@@ -292,8 +292,7 @@ p {
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    left: 21px;
-    position: relative;
+   
 }
 
 .region-footer-second {
@@ -580,7 +579,7 @@ p {
     border-top: 1px solid #ffc107;
     display: grid;   
     align-content: center;
-    align-items: center;
+    align-items: center; 
  
 }
 
@@ -941,7 +940,12 @@ p {
 }
 
 .site-footer__top .region:first-child {
-    padding-left: 0.65%;
+    padding-left: 0%;
+    margin-left: 0px;
+}
+.site-footer__top .region:last-child{
+    padding-right: 0;
+    margin-left: 0px;
 }
 
 .people-listing-section .people-card-sec {
