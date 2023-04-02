@@ -3,6 +3,7 @@
     "description": "IITB Distribution DSSE Theme",
     "type": "drupal-theme",
     "require": {
+        "drupal/addtocalendar": "^3.2",
         "drupal/bootstrap_barrio": "^5.5",
         "drupal/bootstrap_layout_builder": "^2.1",
         "drupal/datetimehideseconds": "^1.2",
