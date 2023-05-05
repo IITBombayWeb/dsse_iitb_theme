@@ -9,7 +9,7 @@
         "drupal/bootstrap_layout_builder": "^2.1",
         "drupal/datetimehideseconds": "^1.2",
         "drupal/easy_breadcrumb": "^2.0",
-        "drupal/entity_print": "^2.11",
+        "drupal/entity_print": "^2.7",
         "drupal/layout_builder_component_attributes": "^2.1",
         "drupal/layout_builder_lock": "^1.2",
         "drupal/layout_builder_modal": "^1.2",
