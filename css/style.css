@@ -196,7 +196,7 @@ p {
 .welcome-content {
     background-color: #fbb00987;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     border-radius: 10px;
     padding: 15px;
     margin-top: 25px;
