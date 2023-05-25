@@ -1055,8 +1055,16 @@ h2, h3, h1, h4 {
     grid-template-columns: 300px 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
 }
-
-
+.view-courses .course-title a {
+    text-decoration: none;
+    color: #4a0e0e;
+}
+.view-courses .course-title a:hover {
+    color: #bc1f23;
+}
+.view-courses .course-title a:hover::after {
+    width: 100%;
+}
 @media only screen and (max-width: 1366px) and (min-width: 769px)  {
     .people-card-sec .bio-sec{
         overflow: hidden;
