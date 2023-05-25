@@ -174,8 +174,11 @@ p {
 .block-page-title-block h1 {
     text-align: center;
     padding: 1em;
+    color: #081b4b;
 }
-
+h2, h3, h1, h4 {
+    color: #081b4b !important;
+}
 .dsse-banner img.image-style-wide {
     width: 1080px;
     border-radius: 8px;
