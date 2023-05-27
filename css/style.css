@@ -1046,7 +1046,7 @@ h2, h3, h1, h4 {
 }
 
 .startup-box .block-inline-blockbasic h2 a:hover {
-    font-size: 1.5rem;
+    border-bottom: 0.5px solid;
     color: #bc1f23;
 }
 
