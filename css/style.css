@@ -1036,6 +1036,19 @@ h2, h3, h1, h4 {
     width: 100%;
 }
 
+.startup-box .block-inline-blockbasic h2 a {
+    text-decoration: none;
+    color: #002476;
+}
+
+.startup-box .block-inline-blockbasic h2 a:hover::after {
+    width: 100%;
+}
+
+.startup-box .block-inline-blockbasic h2 a:hover {
+    font-size: 1.5rem;
+    color: #bc1f23;
+}
 
 .people-detail-col-2 {
     display: grid;
