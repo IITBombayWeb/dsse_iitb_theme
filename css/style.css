@@ -579,7 +579,6 @@ h2, h3, h1, h4 {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ffc107;
-    border-top: 1px solid #ffc107;
     display: grid;   
     align-content: center;
     align-items: center; 
