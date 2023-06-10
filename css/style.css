@@ -617,7 +617,6 @@ h2, h3, h1, h4 {
 
 .facilities-box .facilities-list ul li .header-row .item:nth-child(1) {
     font-size: 1.2rem;
-    font-weight: 600;
 }
 
 .facilities-box .facilities-list ul li .header-row .item:nth-child(2) {
@@ -1092,6 +1091,9 @@ h2, h3, h1, h4 {
 }
 .footer-reachus-block .content .nav .nav-item a {
     pointer-events: none;
+}
+.addtocalendar {
+    display: none !important;
 }
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
