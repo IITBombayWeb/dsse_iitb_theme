@@ -1121,7 +1121,9 @@ h4 {
 .addtocalendar {
     display: none !important;
 }
-
+#recent .read-more-default {
+    display: none;
+}
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
 only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px),
